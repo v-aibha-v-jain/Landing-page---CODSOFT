@@ -1,5 +1,5 @@
 function login(){
-    var name = prompt("Enter your mail-is : ");
+    var name = prompt("Enter your mail-id : ");
     while (!name || !name.trim()) {
         var name = prompt("Please enter a valid email address : ");
     }
